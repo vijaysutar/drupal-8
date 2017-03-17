@@ -1,0 +1,12 @@
+services:
+  authentication.token_auth:
+    class: Drupal\token_auth\Authentication\Provider\TokenAuth
+    arguments: ['@config.factory','@entity.manager']
+    tags:
+      - { name: authentication_provider, provider_id: token_auth, priority: 100 }
+  token_auth.page_cache_request_policy.disallow_token_auth_requests:
+    class: Drupal\token_auth\PageCache\DisallowTokenAuthRequests
+    public: false
+    tags:
+      - { name: page_cache_request_policy }
+

@@ -1,0 +1,24 @@
+token_auth.auth_token.*:
+  type: config_entity
+  label: 'Authentication Token config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    token:
+      type: string
+      label: 'Auth Token value'
+    status:
+      type: boolean
+      label: 'Status'
+    TokenAuthUser:
+      type: integer
+      label: 'User ID'
+    created:
+      type: timestamp
+      label: 'Created'

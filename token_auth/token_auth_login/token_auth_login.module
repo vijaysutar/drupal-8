@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_rest.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function token_auth_login_help($route_name, RouteMatchInterface $route_match) {
+}

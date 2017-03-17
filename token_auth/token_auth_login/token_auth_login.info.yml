@@ -1,0 +1,5 @@
+name: Token Auth Login
+type: module
+description: Third Party access token validation
+core: 8.x
+package: Custom

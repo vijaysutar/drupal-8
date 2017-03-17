@@ -1,0 +1,14 @@
+{
+  "name": "drupal/token_auth_login",
+  "type": "drupal-module",
+  "description": "Third Party access token validation",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/token_auth_login",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/token_auth_login",
+    "source": "http://cgit.drupalcode.org/token_auth_login"
+  },
+  "require": { }
+}
