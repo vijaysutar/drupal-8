@@ -92,7 +92,13 @@ class DebugTokenAuthRestResource extends ResourceBase {
     $uid = $this->currentUser->id();
     $user = User::load($uid);
 
-    return new ResourceResponse($user);
+    // remove cache
+    $build = array(
+          '#cache' => array(
+              'max-age' => 0,
+          ),
+      );
+    return (new ResourceResponse($user))->addCacheableDependency($build);
   }
 
 }
