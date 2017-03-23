@@ -1,0 +1,5 @@
+name: theme_swicher
+type: module
+description: Switches the active theme base on Role
+core: 8.x
+package: Custom

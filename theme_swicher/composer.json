@@ -1,0 +1,14 @@
+{
+  "name": "drupal/theme_swicher",
+  "type": "drupal-module",
+  "description": "Switches the active theme base on Role",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/theme_swicher",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/theme_swicher",
+    "source": "http://cgit.drupalcode.org/theme_swicher"
+  },
+  "require": { }
+}
